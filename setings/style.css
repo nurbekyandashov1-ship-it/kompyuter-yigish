@@ -1,0 +1,196 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+  background-color: #f4f5f7;
+  color: #111;
+  line-height: 1.5;
+  text-align: left;
+}
+
+
+.navbahor {
+  background: #1a1a1a;
+  color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.navoiy {
+  font-size: 22px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.dastury input {
+  width: 100%;
+  max-width: 250px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #444;
+  outline: none;
+  font-size: 14px;
+}
+
+.uzbb {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.uzbb a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.uzbb a:hover {
+  color: #007bff;
+}
+
+
+.yandashev {
+  background: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 40px 15px;
+  margin-bottom: 30px;
+  border-radius: 0 0 12px 12px;
+}
+
+.yandashev h1 {
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.yandashev p {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+button, .a1 {
+  background: #ffffff !important;
+  border: 1px solid #e5e7eb !important;
+  border-radius: 12px !important;
+  padding: 16px !important;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  
+  
+  width: 280px !important;
+  min-height: 380px !important;
+  display: inline-flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+  vertical-align: top !important;
+  margin: 12px !important;
+  text-align: left !important;
+}
+
+button:hover, .a1:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12) !important;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.class-11 {
+  width: 100% !important;
+  height: 180px !important;
+  object-fit: contain !important;
+  margin-bottom: 12px !important;
+  border-radius: 8px !important;
+  background-color: #fff;
+}
+
+button h1, .a1 h1, button h2, .a1 h2 {
+  font-size: 0.95rem !important;
+  font-weight: 700 !important;
+  color: #111827 !important;
+  margin: 4px 0 !important;
+  line-height: 1.4 !important;
+  text-align: left !important;
+}
+
+button h2, .a1 h2, button p, .a1 p {
+  font-size: 0.85rem !important;
+  font-weight: 400 !important;
+  color: #4b5563 !important;
+  margin: 2px 0 !important;
+  display: block !important;
+}
+
+button div {
+  width: 100% !important;
+  border: none !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  text-align: left !important;
+}
+
+
+body > h1, body > p > h1 {
+  font-size: 1.3rem;
+  color: #1a1a1a;
+  margin-top: 30px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+body > h2 {
+  font-size: 0.95rem;
+  color: #4b5563;
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  font-weight: normal;
+  line-height: 1.6;
+  padding: 0 15px;
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+  .navbahor {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .dastury input {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .uzbb {
+    justify-content: center;
+  }
+
+  .yandashev h1 {
+    font-size: 1.3rem;
+  }
+
+  button, .a1 {
+    width: 90% !important;
+    max-width: 350px !important;
+    min-height: auto !important;
+    margin: 10px auto !important;
+  }
+}

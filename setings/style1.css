@@ -1,0 +1,29 @@
+.a2 
+{
+    height: 480px;         
+    vertical-align: top; 
+  
+}
+
+.a2 img {
+    height: 220px;         
+    object-fit: contain; 
+}
+
+button {
+
+
+  transition: all 0.3s ease;
+ 
+}
+
+
+button:hover {
+  background-color: #665ceb; 
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(red, green, blue, alpha)
+}
+
+
+a{
+  border-radius: 25px;}

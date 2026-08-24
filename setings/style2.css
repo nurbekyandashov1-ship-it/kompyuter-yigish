@@ -1,0 +1,27 @@
+.class-11 {
+    height: auto;
+    width: 500px;
+}
+.a1{
+    border-radius: 5px;
+    height: 45px;
+    width: 100px;
+}
+
+button {
+
+
+  transition: all 0.3s ease;
+ 
+}
+
+
+button:hover {
+  background-color: #665ceb; 
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(red, green, blue, alpha)
+}
+
+
+a{
+  border-radius: 25px;}
